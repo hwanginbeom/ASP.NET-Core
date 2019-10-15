@@ -72,6 +72,7 @@
     <Content Include="FrmRequestUserHostAddress.aspx" />
     <Content Include="FrmResponseRedirect.aspx" />
     <Content Include="FrmResponseWrite.aspx" />
+    <Content Include="FrmServerMapPath.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -109,6 +110,13 @@
     </Compile>
     <Compile Include="FrmResponseWrite.aspx.designer.cs">
       <DependentUpon>FrmResponseWrite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmServerMapPath.aspx.cs">
+      <DependentUpon>FrmServerMapPath.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmServerMapPath.aspx.designer.cs">
+      <DependentUpon>FrmServerMapPath.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
