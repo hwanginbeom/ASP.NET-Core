@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{4D9DF2C6-F49E-4CF6-BCAA-81C1500E6FB7}</ProjectGuid>
+    <ProjectGuid>{4BA0BF4C-F6BE-41C5-8F18-451A528D010B}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DevASPNET</RootNamespace>
-    <AssemblyName>DevASPNET</AssemblyName>
+    <RootNamespace>DevStandardControl</RootNamespace>
+    <AssemblyName>DevStandardControl</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
@@ -67,74 +67,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="FrmApplicationSession.aspx" />
-    <Content Include="fRMaspnet.aspx" />
-    <Content Include="FrmPageLoad.aspx" />
-    <Content Include="FrmRequest.aspx" />
-    <Content Include="FrmRequestUserHostAddress.aspx" />
-    <Content Include="FrmResponseRedirect.aspx" />
-    <Content Include="FrmResponseWrite.aspx" />
-    <Content Include="FrmServerMapPath.aspx" />
-    <Content Include="DevASPNET.css" />
+    <Content Include="FrmLabel.aspx" />
     <Content Include="FrmStandardControl.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FrmApplicationSession.aspx.cs">
-      <DependentUpon>FrmApplicationSession.aspx</DependentUpon>
+    <Compile Include="FrmLabel.aspx.cs">
+      <DependentUpon>FrmLabel.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="FrmApplicationSession.aspx.designer.cs">
-      <DependentUpon>FrmApplicationSession.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="fRMaspnet.aspx.cs">
-      <DependentUpon>fRMaspnet.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="fRMaspnet.aspx.designer.cs">
-      <DependentUpon>fRMaspnet.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FrmPageLoad.aspx.cs">
-      <DependentUpon>FrmPageLoad.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FrmPageLoad.aspx.designer.cs">
-      <DependentUpon>FrmPageLoad.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FrmRequest.aspx.cs">
-      <DependentUpon>FrmRequest.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FrmRequest.aspx.designer.cs">
-      <DependentUpon>FrmRequest.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FrmRequestUserHostAddress.aspx.cs">
-      <DependentUpon>FrmRequestUserHostAddress.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FrmRequestUserHostAddress.aspx.designer.cs">
-      <DependentUpon>FrmRequestUserHostAddress.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FrmResponseRedirect.aspx.cs">
-      <DependentUpon>FrmResponseRedirect.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FrmResponseRedirect.aspx.designer.cs">
-      <DependentUpon>FrmResponseRedirect.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FrmResponseWrite.aspx.cs">
-      <DependentUpon>FrmResponseWrite.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FrmResponseWrite.aspx.designer.cs">
-      <DependentUpon>FrmResponseWrite.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FrmServerMapPath.aspx.cs">
-      <DependentUpon>FrmServerMapPath.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FrmServerMapPath.aspx.designer.cs">
-      <DependentUpon>FrmServerMapPath.aspx</DependentUpon>
+    <Compile Include="FrmLabel.aspx.designer.cs">
+      <DependentUpon>FrmLabel.aspx</DependentUpon>
     </Compile>
     <Compile Include="FrmStandardControl.aspx.cs">
       <DependentUpon>FrmStandardControl.aspx</DependentUpon>
@@ -167,9 +110,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>56465</DevelopmentServerPort>
+          <DevelopmentServerPort>61092</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:56465/</IISUrl>
+          <IISUrl>http://localhost:61092/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

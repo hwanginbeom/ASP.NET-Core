@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.852
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevASPNET", "DevASPNET\DevASPNET.csproj", "{4D9DF2C6-F49E-4CF6-BCAA-81C1500E6FB7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevStandardControl", "DevStandardControl\DevStandardControl.csproj", "{4BA0BF4C-F6BE-41C5-8F18-451A528D010B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4D9DF2C6-F49E-4CF6-BCAA-81C1500E6FB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D9DF2C6-F49E-4CF6-BCAA-81C1500E6FB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D9DF2C6-F49E-4CF6-BCAA-81C1500E6FB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BA0BF4C-F6BE-41C5-8F18-451A528D010B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BA0BF4C-F6BE-41C5-8F18-451A528D010B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BA0BF4C-F6BE-41C5-8F18-451A528D010B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BA0BF4C-F6BE-41C5-8F18-451A528D010B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
