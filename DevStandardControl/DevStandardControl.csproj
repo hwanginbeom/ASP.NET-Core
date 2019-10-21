@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="FrmLabel.aspx" />
     <Content Include="FrmStandardControl.aspx" />
+    <Content Include="FrmTextBox.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -85,6 +86,13 @@
     </Compile>
     <Compile Include="FrmStandardControl.aspx.designer.cs">
       <DependentUpon>FrmStandardControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTextBox.aspx.cs">
+      <DependentUpon>FrmTextBox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmTextBox.aspx.designer.cs">
+      <DependentUpon>FrmTextBox.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

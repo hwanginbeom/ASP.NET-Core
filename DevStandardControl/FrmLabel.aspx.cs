@@ -14,7 +14,7 @@ namespace DevStandardControl
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            this.lblDateTime.Text = DateTime.Now.ToString();
+            //this.lblDateTime.Text = DateTime.Now.ToString();
 
         }
     }

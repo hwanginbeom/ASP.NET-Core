@@ -13,7 +13,7 @@
   <h1>표준 컨트롤(Standard Control)</h1>
 
   <h2>[1] 순수 HTML 사용해서 버튼 만들기</h2>
-  <input type="button" value="버튼1" id="btnInput" />
+  <input type="button" value="버튼1"id="btnInput" />
   
   <h2>[2] runat 속성을 추가해서 서버 컨트롤 버튼 만들기</h2>
   <input type="button" value="버튼2" runat="server" id="btnHtml" />
