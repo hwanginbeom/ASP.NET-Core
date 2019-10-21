@@ -67,18 +67,42 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FrmButton.aspx" />
+    <Content Include="FrmImageButton.aspx" />
     <Content Include="FrmLabel.aspx" />
+    <Content Include="FrmLinkButton.aspx" />
     <Content Include="FrmStandardControl.aspx" />
     <Content Include="FrmTextBox.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmButton.aspx.cs">
+      <DependentUpon>FrmButton.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmButton.aspx.designer.cs">
+      <DependentUpon>FrmButton.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmImageButton.aspx.cs">
+      <DependentUpon>FrmImageButton.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmImageButton.aspx.designer.cs">
+      <DependentUpon>FrmImageButton.aspx</DependentUpon>
+    </Compile>
     <Compile Include="FrmLabel.aspx.cs">
       <DependentUpon>FrmLabel.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="FrmLabel.aspx.designer.cs">
       <DependentUpon>FrmLabel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLinkButton.aspx.cs">
+      <DependentUpon>FrmLinkButton.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmLinkButton.aspx.designer.cs">
+      <DependentUpon>FrmLinkButton.aspx</DependentUpon>
     </Compile>
     <Compile Include="FrmStandardControl.aspx.cs">
       <DependentUpon>FrmStandardControl.aspx</DependentUpon>
