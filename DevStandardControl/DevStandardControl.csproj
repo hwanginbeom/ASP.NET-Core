@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FrmButton.aspx" />
+    <Content Include="FrmCommandControl.aspx" />
     <Content Include="FrmImageButton.aspx" />
     <Content Include="FrmLabel.aspx" />
     <Content Include="FrmLinkButton.aspx" />
@@ -82,6 +83,13 @@
     </Compile>
     <Compile Include="FrmButton.aspx.designer.cs">
       <DependentUpon>FrmButton.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCommandControl.aspx.cs">
+      <DependentUpon>FrmCommandControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmCommandControl.aspx.designer.cs">
+      <DependentUpon>FrmCommandControl.aspx</DependentUpon>
     </Compile>
     <Compile Include="FrmImageButton.aspx.cs">
       <DependentUpon>FrmImageButton.aspx</DependentUpon>
