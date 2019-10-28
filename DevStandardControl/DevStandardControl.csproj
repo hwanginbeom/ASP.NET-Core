@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="6.5_FrmImage.aspx" />
+    <Content Include="6.7_FrmImageMap.aspx" />
     <Content Include="FrmButton.aspx" />
     <Content Include="FrmCommandControl.aspx" />
     <Content Include="6.2_FrmHyperLink.aspx" />
@@ -85,6 +86,13 @@
     </Compile>
     <Compile Include="6.5_FrmImage.aspx.designer.cs">
       <DependentUpon>6.5_FrmImage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="6.7_FrmImageMap.aspx.cs">
+      <DependentUpon>6.7_FrmImageMap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="6.7_FrmImageMap.aspx.designer.cs">
+      <DependentUpon>6.7_FrmImageMap.aspx</DependentUpon>
     </Compile>
     <Compile Include="FrmButton.aspx.cs">
       <DependentUpon>FrmButton.aspx</DependentUpon>
