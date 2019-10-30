@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="6.11_FrmBulletedList.aspx" />
+    <Content Include="6.12_FrmHtml.aspx" />
     <Content Include="6.5_FrmImage.aspx" />
     <Content Include="6.7_FrmImageMap.aspx" />
     <Content Include="6.9_FrmTable.aspx" />
@@ -88,6 +89,13 @@
     </Compile>
     <Compile Include="6.11_FrmBulletedList.aspx.designer.cs">
       <DependentUpon>6.11_FrmBulletedList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="6.12_FrmHtml.aspx.cs">
+      <DependentUpon>6.12_FrmHtml.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="6.12_FrmHtml.aspx.designer.cs">
+      <DependentUpon>6.12_FrmHtml.aspx</DependentUpon>
     </Compile>
     <Compile Include="6.5_FrmImage.aspx.cs">
       <DependentUpon>6.5_FrmImage.aspx</DependentUpon>

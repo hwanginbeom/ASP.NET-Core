@@ -47,10 +47,10 @@ namespace DevStandardControl
         protected void lstFavorite_Click(object sender, BulletedListEventArgs e)
         {
             System.Text.StringBuilder sb = new System.Text.StringBuilder();
-            sb.Append("선택한 항목: < br />");
+            sb.Append("선택한 항목: <br/>");
             sb.Append(lstFavorite.Items[e.Index].Text);
-            sb.Append("< br />");
-            sb.Append(lstFavorite.Items[e.Index].Value + "< br />");
+            sb.Append("<br/>");
+            sb.Append(lstFavorite.Items[e.Index].Value + "<br/>");
 
             Response.Write(sb.ToString());
         }
