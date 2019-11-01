@@ -71,6 +71,8 @@
     <Content Include="6.12_FrmHtml.aspx" />
     <Content Include="6.15_FrmDropDowList.aspx" />
     <Content Include="6.16_FrmListBox.aspx" />
+    <Content Include="6.18_FrmCheckBox.aspx" />
+    <Content Include="6.20_FrmCheckBoxList.aspx" />
     <Content Include="6.5_FrmImage.aspx" />
     <Content Include="6.7_FrmImageMap.aspx" />
     <Content Include="6.9_FrmTable.aspx" />
@@ -112,6 +114,20 @@
     </Compile>
     <Compile Include="6.16_FrmListBox.aspx.designer.cs">
       <DependentUpon>6.16_FrmListBox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="6.18_FrmCheckBox.aspx.cs">
+      <DependentUpon>6.18_FrmCheckBox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="6.18_FrmCheckBox.aspx.designer.cs">
+      <DependentUpon>6.18_FrmCheckBox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="6.20_FrmCheckBoxList.aspx.cs">
+      <DependentUpon>6.20_FrmCheckBoxList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="6.20_FrmCheckBoxList.aspx.designer.cs">
+      <DependentUpon>6.20_FrmCheckBoxList.aspx</DependentUpon>
     </Compile>
     <Compile Include="6.5_FrmImage.aspx.cs">
       <DependentUpon>6.5_FrmImage.aspx</DependentUpon>
