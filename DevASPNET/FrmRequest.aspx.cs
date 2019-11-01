@@ -35,6 +35,7 @@ namespace DevASPNET
 
             Response.Write(strMsg);
         }
+
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
             // ASP.NET에서는 Request 개체보다는
