@@ -77,6 +77,7 @@
     <Content Include="6.7_FrmImageMap.aspx" />
     <Content Include="6.9_FrmTable.aspx" />
     <Content Include="7.15_FrmPanel.aspx" />
+    <Content Include="7.17_FrmPlaceHolder.aspx" />
     <Content Include="FrmButton.aspx" />
     <Content Include="FrmCommandControl.aspx" />
     <Content Include="6.2_FrmHyperLink.aspx" />
@@ -157,6 +158,13 @@
     </Compile>
     <Compile Include="7.15_FrmPanel.aspx.designer.cs">
       <DependentUpon>7.15_FrmPanel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="7.17_FrmPlaceHolder.aspx.cs">
+      <DependentUpon>7.17_FrmPlaceHolder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="7.17_FrmPlaceHolder.aspx.designer.cs">
+      <DependentUpon>7.17_FrmPlaceHolder.aspx</DependentUpon>
     </Compile>
     <Compile Include="FrmButton.aspx.cs">
       <DependentUpon>FrmButton.aspx</DependentUpon>
