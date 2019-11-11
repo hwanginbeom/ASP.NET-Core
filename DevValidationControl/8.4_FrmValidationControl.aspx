@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="8.4.2_FrmValidationControl.aspx.cs" Inherits="DevValidationControl._8__4__2_FrmValidationControl" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="8.4_FrmValidationControl.aspx.cs" Inherits="DevValidationControl._8__4__2_FrmValidationControl" %>
 
 <!DOCTYPE html>
 
