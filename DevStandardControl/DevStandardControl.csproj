@@ -43,6 +43,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AspNet.ScriptManager.jQuery, Version=3.4.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\AspNet.ScriptManager.jQuery.3.4.1\lib\net45\AspNet.ScriptManager.jQuery.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -78,6 +81,7 @@
     <Content Include="6.9_FrmTable.aspx" />
     <Content Include="7.15_FrmPanel.aspx" />
     <Content Include="7.17_FrmPlaceHolder.aspx" />
+    <Content Include="7.19_FrmSubstitution.aspx" />
     <Content Include="FrmButton.aspx" />
     <Content Include="FrmCommandControl.aspx" />
     <Content Include="6.2_FrmHyperLink.aspx" />
@@ -86,6 +90,11 @@
     <Content Include="FrmLinkButton.aspx" />
     <Content Include="FrmStandardControl.aspx" />
     <Content Include="FrmTextBox.aspx" />
+    <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.4.1.js" />
+    <Content Include="Scripts\jquery-3.4.1.min.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -166,6 +175,13 @@
     <Compile Include="7.17_FrmPlaceHolder.aspx.designer.cs">
       <DependentUpon>7.17_FrmPlaceHolder.aspx</DependentUpon>
     </Compile>
+    <Compile Include="7.19_FrmSubstitution.aspx.cs">
+      <DependentUpon>7.19_FrmSubstitution.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="7.19_FrmSubstitution.aspx.designer.cs">
+      <DependentUpon>7.19_FrmSubstitution.aspx</DependentUpon>
+    </Compile>
     <Compile Include="FrmButton.aspx.cs">
       <DependentUpon>FrmButton.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -226,6 +242,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.4.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

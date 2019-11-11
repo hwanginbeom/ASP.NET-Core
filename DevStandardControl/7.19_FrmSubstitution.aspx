@@ -1,5 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="7.19_FrmSubstitution.aspx.cs" Inherits="DevStandardControl._7__19_FrmSubstitution" %>
-<%@ OutputCache Duration=“60” VaryByParam=“None” %>
+<%@ OutputCache Duration="60" VaryByParam="None" %>
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">

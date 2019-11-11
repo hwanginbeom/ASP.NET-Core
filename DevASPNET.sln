@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevASPNET", "DevASPNET\DevA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevStandardControl", "DevStandardControl\DevStandardControl.csproj", "{4BA0BF4C-F6BE-41C5-8F18-451A528D010B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevValidationControl", "DevValidationControl\DevValidationControl.csproj", "{1FD1FFF1-A07C-402F-92A1-58B2AEC2518C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4BA0BF4C-F6BE-41C5-8F18-451A528D010B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BA0BF4C-F6BE-41C5-8F18-451A528D010B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BA0BF4C-F6BE-41C5-8F18-451A528D010B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FD1FFF1-A07C-402F-92A1-58B2AEC2518C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FD1FFF1-A07C-402F-92A1-58B2AEC2518C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FD1FFF1-A07C-402F-92A1-58B2AEC2518C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FD1FFF1-A07C-402F-92A1-58B2AEC2518C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
