@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="8.10_FrmCompareValidator.aspx" />
     <Content Include="8.4_FrmValidationControl.aspx" />
     <Content Include="8.6_FrmRequiredFieldValidator.aspx" />
     <Content Include="8.7_FrmRangeValidatior.aspx" />
@@ -74,6 +75,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="8.10_FrmCompareValidator.aspx.cs">
+      <DependentUpon>8.10_FrmCompareValidator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="8.10_FrmCompareValidator.aspx.designer.cs">
+      <DependentUpon>8.10_FrmCompareValidator.aspx</DependentUpon>
+    </Compile>
     <Compile Include="8.4_FrmValidationControl.aspx.cs">
       <DependentUpon>8.4_FrmValidationControl.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
