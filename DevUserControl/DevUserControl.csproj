@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{1FD1FFF1-A07C-402F-92A1-58B2AEC2518C}</ProjectGuid>
+    <ProjectGuid>{2F52D045-0AEE-45FF-BA55-43731C6E249A}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DevValidationControl</RootNamespace>
-    <AssemblyName>DevValidationControl</AssemblyName>
+    <RootNamespace>DevUserControl</RootNamespace>
+    <AssemblyName>DevUserControl</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
@@ -67,57 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="8.10_FrmCompareValidator.aspx" />
-    <Content Include="8.12_FrmRegularExpressionValidator.aspx" />
-    <Content Include="8.4_FrmValidationControl.aspx" />
-    <Content Include="8.6_FrmRequiredFieldValidator.aspx" />
-    <Content Include="8.7_FrmRangeValidatior.aspx" />
-    <Content Include="8.8_FrmRangeValidator.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="8.10_FrmCompareValidator.aspx.cs">
-      <DependentUpon>8.10_FrmCompareValidator.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="8.10_FrmCompareValidator.aspx.designer.cs">
-      <DependentUpon>8.10_FrmCompareValidator.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="8.12_FrmRegularExpressionValidator.aspx.cs">
-      <DependentUpon>8.12_FrmRegularExpressionValidator.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="8.12_FrmRegularExpressionValidator.aspx.designer.cs">
-      <DependentUpon>8.12_FrmRegularExpressionValidator.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="8.4_FrmValidationControl.aspx.cs">
-      <DependentUpon>8.4_FrmValidationControl.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="8.4_FrmValidationControl.aspx.designer.cs">
-      <DependentUpon>8.4_FrmValidationControl.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="8.6_FrmRequiredFieldValidator.aspx.cs">
-      <DependentUpon>8.6_FrmRequiredFieldValidator.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="8.6_FrmRequiredFieldValidator.aspx.designer.cs">
-      <DependentUpon>8.6_FrmRequiredFieldValidator.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="8.7_FrmRangeValidatior.aspx.cs">
-      <DependentUpon>8.7_FrmRangeValidatior.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="8.7_FrmRangeValidatior.aspx.designer.cs">
-      <DependentUpon>8.7_FrmRangeValidatior.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="8.8_FrmRangeValidator.aspx.cs">
-      <DependentUpon>8.8_FrmRangeValidator.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="8.8_FrmRangeValidator.aspx.designer.cs">
-      <DependentUpon>8.8_FrmRangeValidator.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -142,9 +94,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>52950</DevelopmentServerPort>
+          <DevelopmentServerPort>62819</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:52950/</IISUrl>
+          <IISUrl>http://localhost:62819/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
