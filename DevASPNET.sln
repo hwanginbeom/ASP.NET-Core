@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevUserControl", "DevUserCo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevMasterPage", "DevMasterPage\DevMasterPage.csproj", "{CBB3ECB7-F6DF-4303-A44F-31943EDEBF9D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevTheme", "DevTheme\DevTheme.csproj", "{CE84588E-A211-4B6D-B5F4-C147A44B2A1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{CBB3ECB7-F6DF-4303-A44F-31943EDEBF9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBB3ECB7-F6DF-4303-A44F-31943EDEBF9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBB3ECB7-F6DF-4303-A44F-31943EDEBF9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE84588E-A211-4B6D-B5F4-C147A44B2A1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE84588E-A211-4B6D-B5F4-C147A44B2A1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE84588E-A211-4B6D-B5F4-C147A44B2A1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE84588E-A211-4B6D-B5F4-C147A44B2A1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
